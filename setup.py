@@ -99,8 +99,10 @@ setup(
     package_data={},
     url='https://github.com/smautner/',
     license='LICENSE',
-    description='RNA SHAPE (or other structure prediction protocol) prediction via graph kernel',
-    #long_description='SHAPE is a structure probing protocol for RNA. It outputs the probability that a nucleotide is accessible.',
+    description='2D embedding of a data matrix given supervised class information',
+    long_description=open('README.md').read(),
+    long_description_content_type = 'text/markdown',
+
     install_requires=[
         'docopt','numpy','sklearn','networkx','matplotlib','toolz','pygraphviz'
     ],
